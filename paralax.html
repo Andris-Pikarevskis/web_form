@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/inStyle.css">
+    <title>Navigation. Paralax. Screen scroll</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="header__menu menu">
+                <a href="" class="menu__link">Kontaktinformācija</a>
+                <a href="" class="menu__link">Ekrāns Nr: 2</a>
+                <a href="" class="menu__link">Ekrāns Nr: 3</a>
+                <a href="" class="menu__link">Ekrāns Nr: 4</a>
+                <a href="" class="menu__link">Ekrāns Nr: 5</a>
+            </nav>
+        </header>
+        <main class="page">
+            <div class="page__wrapper">
+                <div class="page__screen screen">
+                    <div class="screen__content">
+
+                        <h1 class="screen__title screen__title_bg" data-swiper-parallax="50%"
+                            data-swiper-parallax-opacity="0">Kontaktinformācija</h1>
+                        <div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
+                            data-swiper-parallax-duration="900">
+                            <p>Paldies, ka atrdāt laiku aizpildīt šo formu. Atceraties, ka maksimāli
+                                detalizēti aizpildīta forma palīdzēs iegūt mājas lapu kura maksimāli atbilst Jūs
+                                prasībām.</p>
+
+                            <p>Ar * ir atzīmēti lauki kuri ir obligāti jāaizpilda.</p>
+                        </div>
+
+                        <div class="form">
+                            <form action="#" id="form" class="form__body">
+                                <div class="form__item">
+                                    <label for="formName" class="form__label">Uzņēmuma nosaukums*:</label>
+                                    <input id="formName" type="text" name="name" class="form__input _req">
+                                </div>
+                                <div class="form__item">
+                                    <label for="formName" class="form__label">Kontaktpersona*:</label>
+                                    <input id="formPersonName" type="text" name="kontakpersona"
+                                        class="form__input _req">
+                                </div>
+                                <div class="form__item">
+                                    <label for="formName" class="form__label">Tālruņa numurs*:</label>
+                                    <input id="formPhoneNumber" type="text" name="formPhoneNumber"
+                                        class="form__input _req">
+                                    <div class="msg"></div>
+                                </div>
+                                <div class="form__item">
+                                    <label for="formEmail" class="form__label">E-pasts*:</label>
+                                    <input id="formEmail" type="text" name="name" class="form__input _req _email">
+                                </div>
+                                <div class="form__item">
+                                    <label for="formMessage" class="form__label">Citi kontakti:</label>
+                                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="screen__body">
+                        <div class="screen__image" data-swiper-parallax="33%" data-swiper-parallax-scale="1.1">
+                            <img src="img/img2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="page__screen screen">
+                    <div class="screen__content">
+                        <h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0"
+                            data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Par uzņēmumu</h2>
+                        <div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
+                            data-swiper-parallax-duration="900">
+                        </div>
+                        <div class="form">
+                            <form action="#" id="form" class="form__body">
+                                <div class="form__item">
+                                    <label for="formMessage" class="form__label">Īss apraksts:</label>
+                                    <p class="form__label">Īsumā pastāstiet par savu uzņēmumu</p>
+                                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                </div>
+                                <div class="form__item">
+                                    <label for="formMessage" class="form__label">Nodarbošanās un nozare:</label>
+                                    <p class="form__label">Norādiet jūsu nodarbošanās nozari</p>
+                                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                </div>
+                                <div class="form__item">
+                                    <label for="formMessage" class="form__label">Produkts/pakalpojums:</label>
+                                    <p class="form__label">Norādiet preces un/vai pakalpojumus, kurus jūs sniedzat klientiem</p>
+                                    <p class="form__label">Aprakstiet galvenās īpašības, tehniskos parametrus, </p>
+                                    <p class="form__label">Aprakstiet ar ko jūs pakalpojums/produkts ir īpašs un unikāls, kāpēc to
+                                        izvēlas klienti</p>
+                                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                </div>
+                                <div class="form__item">
+                                    <label for="formMessage" class="form__label">Ģeogrāfija.:</label>
+                                    <p class="form__label">Kādos reģionos jūs sniedzat pakalpojumus</p>
+                                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                </div>
+                                <div class="form__item">
+                                    <label for="formMessage" class="form__label">Suciālie tīkli.:</label>
+                                    <p class="form__label">NOrādiet saites uz sociālajiem tīkliem</p>
+                                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="page__screen screen">
+                    <div class="screen__content">
+                        <h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0"
+                            data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Tas ir taku skrējiens</h2>
+                    </div>
+                    <div class="screen__body">
+                        <div class="screen__image" data-swiper-parallax="50%">
+                            <img src="img/Akagi01.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="page__screen screen">
+                    <div class="screen__content">
+                        <h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0"
+                            data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Sveiki! Tas ir Stirnu buka
+                            apraksts</h2>
+                        <div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
+                            data-swiper-parallax-duration="900">
+                            <p>Patriotiskās noskaņās apskatāma izstāde “Gaismas ceļš”</p>
+                            <p>Par godu Latvijas svētkiem, no šīs piektdienas, 6. novembra līdz pat 18. novembrim t/c
+                                “Galerija centrs”, Rīdzenes ielā, būs apskatāma izstāde no šī gada saulgriežos biedrības
+                                “1836” un taku skrējiena seriāla “Stirnu buks” organizētā “Gaismas ceļš” skrējiena
+                                apkārt Latvijai. Paredzēts, ka izstādē būs iespēja novērtēt Latvijas tautas vienotību,
+                                apskatot 34 fotogrāfijas no dažādām Latvijas pierobežas un piekrastes vietām, kam
+                                aizvadītā skrējiena piecu dienu laikā cauri devās vairāk nekā 87 skrējēju grupas, veicot
+                                maršrutu no Krāslavas līdz Kolkasragam.</p>
+                            <p>“Neskatoties uz to, kas šobrīd notiek Latvijā un pasaulē, novembrim pienākot, klāt ir arī
+                                Latvijas valsts svētki – Lāčplēša diena un Latvijas Republikas proklamēšanas diena. Lai
+                                gan nevaram vienoties kopā būšanā, izlēmām, ka ir lielisks laiks, lai kavētos atmiņās
+                                par vasarā aizvadīto skrējienu apkārt Latvijai. 87 skrējēju grupas, kas no Krāslavas
+                                devās uz Kolku, sadaloties divās komandās – Ziemeļaustrenī un Dienvidrietenī,
+                                izgaismojot sev ceļu ar lāpām, devās pretī viena otrai, lai satiktos Kolkasragā,
+                                simboliski apjožot Latviju ar gaismas viju. Fotogrāfijas ir lieliskas un izceļ Latvijas
+                                dažādību un skaistumu. Novērtēsim to arī šobrīd, gūstot siltas emocijas,” izstādi
+                                apmeklēt aicina Enriko Podnieks, biedrības “1836” vadītājs.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="page__screen screen">
+                    <div class="screen__content">
+                        <h1 class="screen__title screen__title_bg" data-swiper-parallax="50%"
+                            data-swiper-parallax-opacity="0">Tas ir taku skrējiens</h1>
+                    </div>
+                    <div class="screen__body">
+                        <div class="screen__image" data-swiper-parallax="33%" data-swiper-parallax-scale="1.1">
+                            <img src="img/img2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page__pagination"></div>
+            <div class="page__scroll"></div>
+        </main>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
