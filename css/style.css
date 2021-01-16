@@ -168,7 +168,7 @@ body {
 	display: inline-block;
 }
 .screen__title_bg {
-	background-color: rgba(128, 134, 37, 0.5);
+	background-color: rgba(41, 133, 150, 0.5);
     padding: 15px;
     border-radius: 35px;
 }
@@ -203,7 +203,6 @@ body {
 }
 .screen__text p {
 	max-width: 650px;
-    margin: 0 auto;
 }
 .screen__text p:last-child {
 	margin-bottom: 0;
