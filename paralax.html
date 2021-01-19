@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/inStyle.css">
+    <link rel="stylesheet" href="css/select.css">
     <title>Navigation. Paralax. Screen scroll</title>
 </head>
 
@@ -15,13 +16,17 @@
             <nav class="header__menu menu">
                 <a href="" class="menu__link">Kontaktinformācija</a>
                 <a href="" class="menu__link">Par uzņēmumu</a>
-                <a href="" class="menu__link">Ekrāns Nr: 3</a>
-                <a href="" class="menu__link">Ekrāns Nr: 4</a>
-                <a href="" class="menu__link">Ekrāns Nr: 5</a>
+                <a href="" class="menu__link">Lietotāji, potencionālie apmeklētāji</a>
+                <a href="" class="menu__link">Mājas lapa</a>
+                <a href="" class="menu__link">Konkurenti</a>
+                <a href="" class="menu__link">Mājas lapas materiāli</a>
             </nav>
         </header>
         <main class="page">
             <div class="page__wrapper">
+
+                <!------------------Kontaktinformācija----------------------->
+
                 <div class="page__screen screen">
                     <div class="screen__content">
 
@@ -70,6 +75,9 @@
                         </div>
                     </div>
                 </div>
+
+                <!-------------------Par uzņēmumu--------------------------->
+
                 <div class="page__screen screen">
                     <div class="screen__content">
                         <h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0"
@@ -105,7 +113,6 @@
                                         </div>
                                     </div>
                                     <div class="about_2">
-                                        
                                         <div class="form__item">
                                             <label for="formMessage" class="form__label">Ģeogrāfija.:</label>
                                             <p class="form__label">Kādos reģionos jūs sniedzat pakalpojumus</p>
@@ -122,53 +129,289 @@
                         </div>
                     </div>
                 </div>
+
+                <!--------------------Lietotāji, potencionālie apmeklētāji------------------>
+
                 <div class="page__screen screen">
                     <div class="screen__content">
-                        <h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0"
-                            data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Tas ir taku skrējiens</h2>
-                    </div>
-                    <div class="screen__body">
-                        <div class="screen__image" data-swiper-parallax="50%">
-                            <img src="img/Akagi01.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="page__screen screen">
-                    <div class="screen__content">
-                        <h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0"
-                            data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Sveiki! Tas ir Stirnu buka
-                            apraksts</h2>
+
+                        <h1 class="screen__title screen__title_bg" data-swiper-parallax="50%"
+                            data-swiper-parallax-opacity="0">Lietotāji, potencionālie apmeklētāji</h1>
                         <div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
                             data-swiper-parallax-duration="900">
-                            <p>Patriotiskās noskaņās apskatāma izstāde “Gaismas ceļš”</p>
-                            <p>Par godu Latvijas svētkiem, no šīs piektdienas, 6. novembra līdz pat 18. novembrim t/c
-                                “Galerija centrs”, Rīdzenes ielā, būs apskatāma izstāde no šī gada saulgriežos biedrības
-                                “1836” un taku skrējiena seriāla “Stirnu buks” organizētā “Gaismas ceļš” skrējiena
-                                apkārt Latvijai. Paredzēts, ka izstādē būs iespēja novērtēt Latvijas tautas vienotību,
-                                apskatot 34 fotogrāfijas no dažādām Latvijas pierobežas un piekrastes vietām, kam
-                                aizvadītā skrējiena piecu dienu laikā cauri devās vairāk nekā 87 skrējēju grupas, veicot
-                                maršrutu no Krāslavas līdz Kolkasragam.</p>
-                            <p>“Neskatoties uz to, kas šobrīd notiek Latvijā un pasaulē, novembrim pienākot, klāt ir arī
-                                Latvijas valsts svētki – Lāčplēša diena un Latvijas Republikas proklamēšanas diena. Lai
-                                gan nevaram vienoties kopā būšanā, izlēmām, ka ir lielisks laiks, lai kavētos atmiņās
-                                par vasarā aizvadīto skrējienu apkārt Latvijai. 87 skrējēju grupas, kas no Krāslavas
-                                devās uz Kolku, sadaloties divās komandās – Ziemeļaustrenī un Dienvidrietenī,
-                                izgaismojot sev ceļu ar lāpām, devās pretī viena otrai, lai satiktos Kolkasragā,
-                                simboliski apjožot Latviju ar gaismas viju. Fotogrāfijas ir lieliskas un izceļ Latvijas
-                                dažādību un skaistumu. Novērtēsim to arī šobrīd, gūstot siltas emocijas,” izstādi
-                                apmeklēt aicina Enriko Podnieks, biedrības “1836” vadītājs.</p>
                         </div>
 
-                    </div>
-                </div>
-                <div class="page__screen screen">
-                    <div class="screen__content">
-                        <h1 class="screen__title screen__title_bg" data-swiper-parallax="50%"
-                            data-swiper-parallax-opacity="0">Tas ir taku skrējiens</h1>
+                        <div class="form">
+                            <form action="#" id="form" class="form__body">
+                                <div class="form__item">
+                                    <div class="form__label">Lietotāju dzimums</div>
+                                    <div class="options">
+                                        <div class="options__item">
+                                            <input id="formRightHanded" checked type="radio" value="right" name="hand"
+                                                class="options__input">
+                                            <label for="formRightHanded"
+                                                class="options__label"><span>Vīrieši</span></label>
+                                        </div>
+                                        <div class="options__item">
+                                            <input id="formLeftHanded" type="radio" value="left" name="hand"
+                                                class="options__input">
+                                            <label for="formLeftHanded"
+                                                class="options__label"><span>Sievietes</span></label>
+                                        </div>
+                                        <div class="options__item">
+                                            <input id="formBothHanded" type="radio" value="both" name="hand"
+                                                class="options__input">
+                                            <label for="formBothHanded"
+                                                class="options__label"><span>Gan/gan</span></label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__item">
+                                    <label for="formName" class="form__label">Aptuvenais vecums:</label>
+                                    <input id="formPersonName" type="text" name="vecums" class="form__input">
+                                </div>
+                                <div class="form__item">
+                                    <label for="formName" class="form__label">Aptuvenie mēneša ienākumi:</label>
+                                    <input id="formPersonName" type="text" name="ienakumi" class="form__input">
+                                </div>
+                                <div class="form__item">
+                                    <label for="formName" class="form__label">Apmeklētāju intereses:</label>
+                                    <p class="form__label">Kādas varētui būt intereses piemēram bizness, ceļojumi,
+                                        skaistums</p>
+                                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                     <div class="screen__body">
                         <div class="screen__image" data-swiper-parallax="33%" data-swiper-parallax-scale="1.1">
-                            <img src="img/img2.jpg" alt="">
+                            <img src="img/web/1567665.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!----------------Mājas lapa---------------->
+
+                <div class="page__screen screen">
+                    <div class="screen__content">
+                        <h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0"
+                            data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Par uzņēmumu</h2>
+                        <div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
+                            data-swiper-parallax-duration="900">
+                        </div>
+                        <div class="form">
+                            <form action="#" id="form" class="form__body">
+                                <div class="about_wrapper">
+                                    <div class="about_1">
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">Mērķi kuri jāsasniedz
+                                                lapai:</label>
+                                            <p class="form__label">Piemēram: Klientu piesaiste, pārdošanas veicināšana,
+                                                līdu ģenerēšana</p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">Vēlamā darbība, ko sagaida no
+                                                apmeklētāja:</label>
+                                            <p class="form__label">Piemēram: pirkums, atstāt kontaktu, lejuplādēt failu.
+                                            </p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">Vēlamais stils:</label>
+                                            <p class="form__label">Piemēram: Lietišķis, viegls, stilīgs</p>
+                                            <p class="form__label">Īpašas vēlmes krāsu izvēlē</p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="about_2">
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">Vēlamās sadaļas:</label>
+                                            <p class="form__label">Kādas sadaļas būs jāievieto mājas lapā, kam jābūt
+                                                augšējā daļā, kam lapā, kam apakšējā daļā.</p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">Papildus vēlmes:</label>
+                                            <p class="form__label">Aprakstiet visu, ko Jūs vēlētos papildus pievienot
+                                                mājas lapā.
+                                            </p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">Tehniskie aspekti:</label>
+                                            <p class="form__label">Piemēram kāds CMS sistēmas velaties izmantot, vai
+                                                programmēšanas valodas.
+                                            </p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!--------------------------------Konkurenti------------------------------>
+
+                <div class="page__screen screen">
+                    <div class="screen__content">
+                        <h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0"
+                            data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Konkurenti</h2>
+                        <div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
+                            data-swiper-parallax-duration="900">
+                        </div>
+                        <div class="form">
+                            <form action="#" id="form" class="form__body">
+                                <div class="about_wrapper">
+                                    <div class="about_1">
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">mājaslapas adrese:</label>
+                                            <input id="formName" type="url" name="url" class="form__input">
+                                            <br><br>
+                                            <p class="form__label">Aprakstiet, kas patīk un kas nepatīk šajā vietnē.</p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">mājaslapas adrese:</label>
+                                            <input id="formName" type="url" name="url" class="form__input">
+                                            <br><br>
+                                            <p class="form__label">Aprakstiet, kas patīk un kas nepatīk šajā vietnē.</p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="about_2">
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">mājaslapas adrese:</label>
+                                            <input id="formName" type="url" name="url" class="form__input">
+                                            <br><br>
+                                            <p class="form__label">Aprakstiet, kas patīk un kas nepatīk šajā vietnē.</p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">mājaslapas adrese:</label>
+                                            <input id="formName" type="url" name="url" class="form__input">
+                                            <br><br>
+                                            <p class="form__label">Aprakstiet, kas patīk un kas nepatīk šajā vietnē.</p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="screen__body">
+                        <div class="screen__image" data-swiper-parallax="33%" data-swiper-parallax-scale="1.1">
+                            <img src="img/web/1526048.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!---------------------------mājas lapas materiāli----------------------->
+                <div class="page__screen screen">
+                    <div class="screen__content">
+                        <h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0"
+                            data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Mājas lapas materiāli</h2>
+                        <div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%"
+                            data-swiper-parallax-duration="900">
+                        </div>
+                        <div class="form">
+                            <form action="#" id="form" class="form__body">
+                                <div class="about_wrapper">
+                                    <div class="about_1">
+                                        <div class="form__item">
+                                            <div class="form__label">Logo</div>
+                                            <div class="options">
+                                                <div class="options__item">
+                                                    <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input">
+                                                    <label for="formRightHanded" class="options__label"><span>Ir</span></label>
+                                                </div>
+                                                <div class="options__item">
+                                                    <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input">
+                                                    <label for="formLeftHanded" class="options__label"><span>Nav</span></label>
+                                                </div>
+                                                <div class="options__item">
+                                                    <input id="formBothHanded" type="radio" value="both" name="hand" class="options__input">
+                                                    <label for="formBothHanded" class="options__label"><span>Jāizstrādā</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form__item">
+                                            <div class="form__label">Personīgais stils</div>
+                                            <div class="options">
+                                                <div class="options__item">
+                                                    <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input">
+                                                    <label for="formRightHanded" class="options__label"><span>Ir</span></label>
+                                                </div>
+                                                <div class="options__item">
+                                                    <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input">
+                                                    <label for="formLeftHanded" class="options__label"><span>Nav</span></label>
+                                                </div>
+                                                <div class="options__item">
+                                                    <input id="formBothHanded" type="radio" value="both" name="hand" class="options__input">
+                                                    <label for="formBothHanded" class="options__label"><span>Jāizstrādā</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form__item">
+                                            <div class="form__label">Produkta/pakalpojuma foto</div>
+                                            <div class="options">
+                                                <div class="options__item">
+                                                    <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input">
+                                                    <label for="formRightHanded" class="options__label"><span>Ir</span></label>
+                                                </div>
+                                                <div class="options__item">
+                                                    <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input">
+                                                    <label for="formLeftHanded" class="options__label"><span>Nav</span></label>
+                                                </div>
+                                                <div class="options__item">
+                                                    <input id="formBothHanded" type="radio" value="both" name="hand" class="options__input">
+                                                    <label for="formBothHanded" class="options__label"><span>Jāveic fotosesija</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form__item">
+                                            <div class="form__label">Produkta/pakalpojuma videomateriāls</div>
+                                            <div class="options">
+                                                <div class="options__item">
+                                                    <input id="formRightHanded" checked type="radio" value="right" name="hand" class="options__input">
+                                                    <label for="formRightHanded" class="options__label"><span>Ir</span></label>
+                                                </div>
+                                                <div class="options__item">
+                                                    <input id="formLeftHanded" type="radio" value="left" name="hand" class="options__input">
+                                                    <label for="formLeftHanded" class="options__label"><span>Nav</span></label>
+                                                </div>
+                                                <div class="options__item">
+                                                    <input id="formBothHanded" type="radio" value="both" name="hand" class="options__input">
+                                                    <label for="formBothHanded" class="options__label"><span>Izveidot video</span></label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="about_2">
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">Vēlamās sadaļas:</label>
+                                            <p class="form__label">Kādas sadaļas būs jāievieto mājas lapā, kam jābūt
+                                                augšējā daļā, kam lapā, kam apakšējā daļā.</p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">Papildus vēlmes:</label>
+                                            <p class="form__label">Aprakstiet visu, ko Jūs vēlētos papildus pievienot
+                                                mājas lapā.
+                                            </p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                        <div class="form__item">
+                                            <label for="formMessage" class="form__label">Tehniskie aspekti:</label>
+                                            <p class="form__label">Piemēram kāds CMS sistēmas velaties izmantot, vai
+                                                programmēšanas valodas.
+                                            </p>
+                                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -179,6 +422,7 @@
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/FbForm.js"></script>
 </body>
 
 </html>
